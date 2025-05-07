@@ -1,0 +1,24 @@
+
+
+
+
+create one project and create one github repo
+
+push the project in that github repo
+
+now open cmd and cd karun project folder madhe ye
+and hit following url in it.
+
+ng add angular-cli-ghpages
+
+
+now hit following commands                                 
+                                                             |-----------------------ithe project name lihine
+ng build --base-href "https://ShubhamMayane.github.io/simple_app_for_deploy/"
+                                |
+                                |-the github che user name lihine
+
+
+
+
+npx angular-cli-ghpages --dir="dist/simple_project_for_deploy/browser/"
